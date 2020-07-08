@@ -40,6 +40,16 @@ const thor = new Vingador(
   false
 );
 
+const homem_aranha = new Vingador(
+  "Homem Aranha",
+  "1.79",
+  "80kg",
+  ["Criação de Teia", "Sentido Aranha", "Super Pulo"],
+  false,
+  false,
+  false
+);
+
 document.getElementById("lutar").onclick = function () {
-  thor.lutar();
+  homem_aranha.lutar();
 };
